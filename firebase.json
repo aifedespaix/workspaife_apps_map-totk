@@ -1,0 +1,9 @@
+{
+  "hosting": {
+    "public": "dist",
+    "site": "map-totk",
+    "cleanUrls": true,
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [{ "source": "**", "destination": "/index.html" }]
+  }
+}
